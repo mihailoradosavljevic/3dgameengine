@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>Box01</Name>
+    <Identity>
+      <SourceFilename>F:\VSTUDIO\CSHARP\Igra 3d\Igra 3d\Igra 3dContent\kockacigle.FBX</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>2.54 0 0 0 0 7.19523466E-16 -2.54 0 0 2.54 7.19523466E-16 0 -2.25734282 0 16.14043 1</Transform>
+    <Positions>-14.3871155 -14.3871155 0 14.3871155 -14.3871155 0 -14.3871155 14.3871155 0 14.3871155 14.3871155 0 -14.3871155 -14.3871155 23.6904316 14.3871155 -14.3871155 23.6904316 -14.3871155 14.3871155 23.6904316 14.3871155 14.3871155 23.6904316</Positions>
+    <Geometry>
+      <Batch>
+        <Material>#Resource1</Material>
+        <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22</Indices>
+        <Vertices>
+          <PositionIndices>0 2 3 1 4 5 7 6 0 1 5 4 1 3 7 5 3 2 6 7 2 0 4 6</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">1 1 1 0 0 0 0 1 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0</VertexChannel>
+            <VertexChannel Name="TextureCoordinate1" ElementType="Framework:Vector2">0.02 0.635257244 0.02 0.98 0.364742726 0.98 0.364742726 0.635257244 0.02 0.6193942 0.364742726 0.6193942 0.364742726 0.274651468 0.02 0.274651468 0.380605847 0.2587884 0.380605847 0.603531063 0.6644398 0.603531063 0.6644398 0.2587884 0.380605847 0.635257244 0.380605847 0.98 0.6644398 0.98 0.6644398 0.635257244 0.696166 0.635257244 0.696166 0.98 0.979999959 0.98 0.979999959 0.635257244 0.696166 0.2587884 0.696166 0.603531063 0.979999959 0.603531063 0.979999959 0.2587884</VertexChannel>
+            <VertexChannel Name="TextureCoordinate2" ElementType="Framework:Vector2">1 1 1 0 0 0 0 1 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>Bricks_Yellow</Name>
+      <Identity>
+        <SourceFilename>F:\VSTUDIO\CSHARP\Igra 3d\Igra 3d\Igra 3dContent\kockacigle.FBX</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.5 0.5 0.5</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="SpecularPower" Type="float">1.07177341</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+        <Texture Key="Bump">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">FBX\FD7317DC\kockacigle.fbm\Yellobrk.JPG</ExternalReference>
+  </ExternalReferences>
+</XnaContent>
